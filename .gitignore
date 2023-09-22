@@ -1,9 +1,9 @@
 node_modules
 package.json
 package-lock.json
-/css/carrinho.scss
-/css/carrinho.css.map
-/css/produto.scss
-/css/produto.css.map
-/css/produtos.scss
-/css/produtos.css.map
+./css/carrinho.scss
+./css/carrinho.css.map
+./css/produto.scss
+./css/produto.css.map
+./css/produtos.scss
+./css/produtos.css.map
