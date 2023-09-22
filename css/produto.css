@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500;6..12,700&display=swap");
+:root {
+  --color1: #203454;
+  --offwhite: #faf9f6;
+  --gray: #babaca;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: var(--offwhite);
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100svh;
+}
+.product-container .left-product-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 35%;
+  height: 75%;
+  padding: 50px;
+  position: relative;
+  border: solid 4px var(--color1);
+  border-right: none;
+  border-bottom: solid 10px var(--color1);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.product-container .left-product-container img {
+  aspect-ratio: 1/1;
+  width: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+.product-container .right-product-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 35%;
+  height: 75%;
+  padding: 50px;
+  border: solid 4px var(--color1);
+  border-left: none;
+  border-bottom: solid 10px var(--color1);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.product-container .right-product-container h1 {
+  margin: 10px;
+  color: var(--color1);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.product-container .right-product-container h2 {
+  margin: 10px;
+  color: var(--color1);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.product-container .right-product-container .button {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-container .right-product-container .button a {
+  text-decoration: none;
+  color: var(--color1);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 20px 50px;
+  border: solid 4px var(--color1);
+  border-radius: 20px;
+  background-color: var(--offwhite);
+  transition: all 0.05s ease;
+}
+.product-container .right-product-container .button span {
+  width: 100%;
+  height: 50px;
+  background-color: var(--color1);
+  position: relative;
+  top: -40px;
+  z-index: -1;
+  border-radius: 20px;
+}
+.product-container .right-product-container .button a:active {
+  transform: translateY(10px);
+}
+.product-container .right-product-container p {
+  margin: 10px;
+  color: var(--color1);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.connection {
+  display: flex;
+  height: 10%;
+  width: 0;
+  position: absolute;
+  top: 87.5%;
+  left: 50%;
+  border: solid 2px var(--color1);
+}
+
+.product-description {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: solid 4px var(--color1);
+  border-bottom: solid 10px var(--color1);
+  border-radius: 50px;
+  padding: 20px 50px;
+  margin-top: -25px;
+}
+.product-description h1 {
+  margin: 20px;
+  color: var(--color1);
+  font-size: 3rem;
+}
+.product-description p {
+  margin: 20px;
+  color: var(--color1);
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 75px;
+  width: 100%;
+  height: 200px;
+  background-color: var(--color1);
+  color: var(--offwhite);
+}
+footer h1 {
+  font-size: 3rem;
+}
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contact h2 {
+  margin: 10px;
+  font-size: 2rem;
+}
+footer .contact p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}/*# sourceMappingURL=produto.css.map */
