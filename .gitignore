@@ -1,9 +1,12 @@
 package.json
 package-lock.json
 
-css/carrinho.scss
-css/carrinho.css.map
-css/produto.scss
-css/produto.scss
-css/produtos.css.map
-css/produtos.css.map
+node_modules
+.gitignore
+
+/css/carrinho.scss
+/css/carrinho.css.map
+/css/produto.scss
+/css/produto.scss
+/css/produtos.css.map
+/css/produtos.css.map
